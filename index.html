@@ -3,9 +3,48 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+    <link rel="stylesheet" type="text/css" href="styles/reset.css">
+    <title>Pagina Personal</title>
 </head>
 <body>
-    <h1>Proyecto M1</h1>
+    <header>
+        <h1>Proyecto Mi</h1>
+    </header>
+    <section id="SobreMi">
+        <h3>Sobre Mi</h3>
+        <p>Soy Ezequiel Alonso, vivo en Santa Teresita. Estoy tratando de cambiar de trabajo y elegi Henry para dedicarme al mundo de la programación. Hice la carrera de Licenciatur en informatica pero no habia salida laboral en ese entonces en donde vivo, Hiy por hoy con el homework esto cambio y quiero dedicarme pero necesita actualizarme en los lenguajes de programación para conseguir empleo. Soy cristiano desde hace un tiempo y eso cambio mi vida para siempre. Es un privilegio participar en Henry</p>
+    </section>
+    <section id="MisLibros">
+        <h3>Mis Libros Favoritas</h3>
+        <div>
+            <h4>La Biblia</h4>
+            <img src="https://m.media-amazon.com/images/I/41DFS5eIsnL.jpg" title="La Biblia">
+        </div>
+        <div>
+            <h4>El evanglio segun Jesucristo</h4>
+            <img src="https://http2.mlstatic.com/D_NQ_NP_867654-MLA29841091732_042019-O.webp" title="El Evangelio">
+        </div>
+        <div>
+            <h4>Solo por Gracia</h4>
+            <img src="https://static.clccolombia.com/_CLCColombia/images/products/original/3620.jpg" title="Solo por Gracia">
+        </div>
+    </section>
+    <section id="MisActividades">
+        <h3>Mis Actividades Favoritas</h3>
+        <form>
+            <label>Titulo:</label>
+            <input type="text" id="titulo" name="titulo" required>
+            <br><br>
+            <label>Descripcion:</label>
+            <input type="text" id="descripcion" name="descripción" required>
+            <br><br>
+            <label>Cargar imagen:</label>
+            <input type="file" id="imagen" name="imagen" accept="image/*" required>
+            <br><br>
+            <input type="submit" value="Agregar">
+        </form>
+
+    </section>
 </body>
 </html>

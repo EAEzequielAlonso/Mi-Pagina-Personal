@@ -1,0 +1,13 @@
+/* Resetting margins, paddings, and borders */
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Resetting font styles */
+body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, code,
+dl, dt, dd, ul, ol, li, figure, figcaption,
+textarea, fieldset, legend, input, button, select {
+    font: inherit;
+}

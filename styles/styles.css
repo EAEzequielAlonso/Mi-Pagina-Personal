@@ -1,0 +1,32 @@
+img {
+    border: solid 2px red;
+    width: 150px;
+    height: 200px;
+
+}
+
+#MisActividades {
+    padding:20px;
+}
+
+div {
+    width: 150px;
+    height: 200px;
+    display: inline-block;
+    margin: 10px 50px 60px 50px;
+}
+
+h3 {
+    margin: 10px;
+}
+
+section {
+    width: 100%;
+    background-color: darkgoldenrod;
+    border:solid 3px black;
+    margin: 5px;
+}
+
+body {
+    text-align: center;
+}
