@@ -1,32 +1,138 @@
 img {
-    border: solid 2px red;
+    border: solid 2px rgb(196, 98, 98);
     width: 150px;
     height: 200px;
-
+    opacity:75%;
 }
 
-#MisActividades {
-    padding:20px;
+img:hover {
+   
+    opacity:100%;
+    transition: transform 0.7s ease;
+    transform: scale(1.2);
 }
 
-div {
-    width: 150px;
-    height: 200px;
+h3 {
+    font-size: 20px;
+    color: black;
+}
+#MisLibros div {
     display: inline-block;
-    margin: 10px 50px 60px 50px;
+    margin: 0 50px 60px 50px;
+    position: relative;
+    top: 50px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+form {
+    display: inline-block;
+    margin: 30px 10px 30px 0px;
+    padding: 5px;
+    padding-top: 10px;
+    position:relative;
+    left: 5px;
+    width: 25%;
+    border-radius: 20px 0 0 20px;
+    border: solid 2px rgb(70, 71, 71);
+    text-align: left;
+}
+
+#divActividades {
+    display: inline-flex;
+    width: 70%;
+    border: solid 2px rgb(70, 71, 71);
+    height: 280px;
+    position: relative;
+    top:-98px;
+    border-radius: 0 20px 20px 0;
+    justify-content: center; 
+    align-items: center;
+    font-size: 60px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#divActividades label{
+    color:#b4b1b1;
+}
+
+input, textarea, label {
+    position:relative;
+    left:30px;
+    color:black;
+    width: 235px;
+}
+
+#boton {
+    left:57px;
+    margin: 5px auto;
+    width: 190px;
+    position: center;
+    border-radius: 5px;
+    border: solid 3px rgb(78, 78, 78);
+    background-color: #d3d0d0;
+    padding:5px;
+    font-size: 15px;
+}
+
+#boton:hover {
+    border: solid 3px rgb(0, 0, 0);
+    background-color: #a8a6a6;
+}
+
+#boton:active {
+    background-color: #797777;
+}
+
+h1 {
+    font-size: 40px;
+    margin-top: 10px;
+    color:black;
+    text-shadow: 
+        -1px -1px 0 #807c7c,  
+         1px -1px 0 #807c7c,
+        -1px  1px 0 #807c7c,
+         1px  1px 0 #807c7c;
+}
+
+h2 {
+    font-size: 30px;
+    margin: 10px;
+    color:black;
+    font-weight: bold;
 }
 
 h3 {
     margin: 10px;
 }
 
+p {
+    margin-bottom: 15px;
+}
+
 section {
-    width: 100%;
-    background-color: darkgoldenrod;
-    border:solid 3px black;
-    margin: 5px;
+    width: 90%;
+    background-color: rgb(226, 226, 226);
+    border:solid 3px rgb(110, 110, 110);
+    border-radius: 30px;
+    margin: 10px auto;
+}
+#MisLibros {
+    height: 400px;
+}
+#MisActividades {
+    height: 380px;
 }
 
 body {
+    background-image: url('../Imagenes/Fondo-pagina.jpg'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el contenedor */
+    background-position: center; /* Centra la imagen */
+    color:rgb(56, 54, 54);
     text-align: center;
+    background-attachment: fixed;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

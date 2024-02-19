@@ -9,17 +9,8 @@
 </head>
 <body>
     <header>
-        <div>
-            <h1>Ezequiel Alonso</h1>
-            <spam>Desarrollador Web</spam>
-        </div>
-        <nav>
-            <lu>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-            </lu>
-        </nav>
+        <h1>Ezequiel Alonso</h1>
+        <h2>Mi Pagina Web</h2>
     </header>
     <main>
         <section id="SobreMi">
@@ -27,47 +18,49 @@
             <article>
                 <p>
                     Soy Ezequiel Alonso, vivo en Santa Teresita. Estoy tratando de cambiar de trabajo y elegi Henry para 
-                    dedicarme al mundo de la programación. Hice la carrera de Licenciatur en informatica pero no habia 
-                    salida laboral en ese entonces en donde vivo, Hiy por hoy con el homework esto cambio y quiero dedicarme 
-                    pero necesita actualizarme en los lenguajes de programación para conseguir empleo. Soy cristiano desde 
-                    hace un tiempo y eso cambio mi vida para siempre. Es un privilegio participar en Henry
+                    dedicarme al mundo de la programación. Hice la carrera de Licenciatura en informática pero no habia 
+                    salida laboral en ese entonces en donde vivo, Hoy por hoy con el homework esto cambio y quiero volver 
+                    pero necesito actualizarme en los lenguajes de programación para conseguir empleo. Soy cristiano desde 
+                    hace un tiempo y eso cambio mi vida para siempre. Es un privilegio participar en Henry.
                 </p>
             </article>
         </section>
         <section id="MisLibros">
             <h3>Mis Libros Favoritas</h3>
             <div>
-                <h4>La Biblia</h4>
                 <img src="https://m.media-amazon.com/images/I/41DFS5eIsnL.jpg" alt="La Biblia" title="La Biblia">
+            
             </div>
             <div>
-                <h4>El evanglio segun Jesucristo</h4>
                 <img src="https://http2.mlstatic.com/D_NQ_NP_867654-MLA29841091732_042019-O.webp" alt="El Evangelio" title="El Evangelio">
+              
             </div>
             <div>
-                <h4>Solo por Gracia</h4>
                 <img src="https://static.clccolombia.com/_CLCColombia/images/products/original/3620.jpg" alt="Solo por Gracia" title="Solo por Gracia">
+              
             </div>
         </section>
         <section id="MisActividades">
             <h3>Mis Actividades Favoritas</h3>
-            <form action="">
-                <label>Titulo:</label>
+            <form id="formActividades" action="" >
+                <label>Titulo:</label><br>
                 <input type="text" id="titulo" name="titulo" placeholder="Introduce el titulo" required>
                 <br><br>
-                <label>Descripcion:</label>
-                <textarea id="descripcion" name="descripción" placeholder="Introduce la Descripción" cols="30" rows="10" required>
+                <label>Descripcion:</label><br>
+                <textarea id="descripcion" name="descripción" placeholder="Introduce la Descripción" cols="30" rows="5" required></textarea>
                 <br><br>
-                <label>Link de la imagen:</label>
+                <label>Link de la imagen:</label><br>
                 <input type="text" id="imagen" name="imagen" placeholder="Introduce el link" required>
                 <br><br>
-                <input type="submit" value="Agregar Actividad">
+                <input type="submit" value="Agregar Actividad" id="boton">
             </form>
+            <div id="divActividades">
+                <label>Actividades</label>
+            </div>
         </section>
     </main>
     <footer>
-        <h2>Construido por Ezequiel Alonso</h2>
-        <p>Todos los derechos reservados</p>
     </footer>
+    <script src="./scripts/index.js"></script>
 </body>
 </html>
