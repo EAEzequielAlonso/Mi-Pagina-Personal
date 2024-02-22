@@ -14,7 +14,7 @@
     </header>
     <main>
         <section id="SobreMi">
-            <h3>Conoce Mas Sobre Mi</h3>
+            <div class="divh3"><h3>Conoce Mas Sobre Mi</h3></div>
             <article>
                 <p>
                     Soy Ezequiel Alonso, vivo en Santa Teresita. Estoy tratando de cambiar de trabajo y elegi Henry para 
@@ -26,40 +26,40 @@
             </article>
         </section>
         <section id="MisLibros">
-            <h3>Mis Libros Favoritas</h3>
-            <div>
+            <article class="divh3"><h3>Libros Favoritas</h3></article>
+            <div class="claseLibro">
                 <img src="https://m.media-amazon.com/images/I/41DFS5eIsnL.jpg" alt="La Biblia" title="La Biblia">
-            
             </div>
-            <div>
-                <img src="https://http2.mlstatic.com/D_NQ_NP_867654-MLA29841091732_042019-O.webp" alt="El Evangelio" title="El Evangelio">
-              
+            <div class="claseLibro">
+                <img src="https://http2.mlstatic.com/D_NQ_NP_867654-MLA29841091732_042019-O.webp" alt="El Evangelio" title="El Evangelio"> 
             </div>
-            <div>
+            <div class="claseLibro">
                 <img src="https://static.clccolombia.com/_CLCColombia/images/products/original/3620.jpg" alt="Solo por Gracia" title="Solo por Gracia">
-              
             </div>
         </section>
         <section id="MisActividades">
-            <h3>Mis Actividades Favoritas</h3>
-            <form id="formActividades" action="" >
+            <div class="divh3"><h3>Ingresar Actividades Favoritas</h3></div>
+            <div id="agregarActividades">
                 <label>Titulo:</label><br>
                 <input type="text" id="titulo" name="titulo" placeholder="Introduce el titulo" required>
                 <br><br>
                 <label>Descripcion:</label><br>
-                <textarea id="descripcion" name="descripción" placeholder="Introduce la Descripción" cols="30" rows="5" required></textarea>
+                <textarea id="descripcion" name="descripción" placeholder="Introduce la Descripción" cols="30" rows="5"  required></textarea>
                 <br><br>
                 <label>Link de la imagen:</label><br>
                 <input type="text" id="imagen" name="imagen" placeholder="Introduce el link" required>
                 <br><br>
-                <input type="submit" value="Agregar Actividad" id="boton">
-            </form>
-            <div id="divActividades">
-                <label>Actividades</label>
+                <button id="boton">Agregar Actividad</button>
             </div>
         </section>
+        <div id="divActividades">
+            <label>Actividades</label>
+        </div>
     </main>
     <footer>
+        <br>
+        <label>Todos los derechos reservados  //  </label>
+        <label>Autor: Ezequiel Alonso</label>
     </footer>
     <script src="./scripts/index.js"></script>
 </body>
